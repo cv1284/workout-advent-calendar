@@ -158,13 +158,13 @@ const mob = (day, emoji, title, blurb, items) => ({ day, emoji, title, type: "mo
 const W = [
   lift(1, "🐷", "Pigs in Blankets Burner", "Full body, wrapped up nicely.", [
     "Goblet squat - 3 x 10", "Dumbbell floor press - 3 x 10", "One-arm row - 3 x 10 each", "Romanian deadlift - 3 x 10", "Plank - 3 x 30 sec"]),
-  liss(2, "🥦", "Brussels Sprout Stroll", "Love it or hate it, you're doing it.", [
+  liss(3, "🥦", "Brussels Sprout Stroll", "Love it or hate it, you're doing it.", [
     "30 min brisk-but-chatty walk, outdoors if possible", "RPE 3-4 out of 10", "Wrap up warm"]),
-  lift(3, "🥔", "Roast Potato Glute Roast", "Crispy on the outside, strong on the inside.", [
+  lift(4, "🥔", "Roast Potato Glute Roast", "Crispy on the outside, strong on the inside.", [
     "Goblet squat - 4 x 10", "Reverse lunge - 3 x 8 each", "Glute bridge - 3 x 15", "Calf raise - 3 x 15", "Dead bug - 2 x 8 each"]),
-  liss(4, "🥧", "Mince Pie Meander", "A leisurely wander. Pie optional.", [
+  liss(9, "🥧", "Mince Pie Meander", "A leisurely wander. Pie optional.", [
     "30 min easy walk or flat bike spin", "Keep it conversational", "Reward yourself with the pie"]),
-  lift(5, "🎅", "Santa's Little Lifters", "Sack-carrying shoulders and back.", [
+  lift(2, "🎅", "Santa's Little Lifters", "Sack-carrying shoulders and back.", [
     "Dumbbell shoulder press - 3 x 10", "Incline push-up - 3 x 10", "Bent-over row - 3 x 12", "Lateral raise - 2 x 12", "Bicep curl + tricep extension superset - 2 x 12", "Face pull - 2 x 15"]),
   mob(6, "🧦", "Stocking Stretch Out", "Loosen up the hips, back and shoulders.", [
     "Easy walk or bike to warm up - 3 min", "Child's pose - 2 min", "World's greatest stretch, 5 each side - 4 min", "Cat-cow - 2 min",
@@ -172,33 +172,34 @@ const W = [
     "Hamstring stretch - 3 min", "Legs up the wall - 3 min"]),
   lift(7, "🪵", "Yule Log Legs", "Heavy, solid and slightly sweet.", [
     "Goblet squat - 4 x 8", "Romanian deadlift - 3 x 10", "Step-up - 3 x 8 each", "Hamstring curl or slider curl - 3 x 12", "Side plank - 2 x 20 sec each"]),
-  liss(8, "🔔", "Jingle Bell Stride", "Find a rhythm and ring it in.", [
+  liss(12, "🔔", "Jingle Bell Stride", "Find a rhythm and ring it in.", [
     "30 min steady walk, bike or cross trainer", "Festive playlist at 100-120 BPM", "RPE 3-4 out of 10"]),
-  lift(9, "🍞", "Stuffing Strength", "Pack in the full-body reps.", [
-    "Split squat - 3 x 8 each", "Dumbbell press - 3 x 10", "Seated or bent row - 3 x 12", "Good morning - 3 x 12", "Suitcase carry - 3 x 30 sec each"]),
-  lift(10, "⛄", "Snowman Shoulders", "Round on the outside. Strong on the inside.", [
+  lift(14, "🍞", "Stuffing Strength", "Pack in the pushing and pulling.", [
+    "Incline dumbbell press - 3 x 10", "One-arm row - 3 x 10 each", "Arnold press - 3 x 10", "Lat pulldown or assisted pull-up - 3 x 10",
+    "Hammer curl - 2 x 12", "Overhead tricep extension - 2 x 12"]),
+  lift(5, "⛄", "Snowman Shoulders", "Round on the outside. Strong on the inside.", [
     "Overhead press - 4 x 8", "Push-up - 3 x 10", "Face pull or reverse fly - 3 x 15", "Lateral raise - 3 x 12", "Farmer's carry - 3 x 40 sec"]),
-  lift(11, "🍬", "Candy Cane Core", "Twisty, stripy and sneaky hard.", [
+  lift(8, "🍬", "Candy Cane Core", "Twisty, stripy and sneaky hard.", [
     "Dead bug - 3 x 10", "Bird dog - 3 x 10", "Plank - 2 x 40 sec", "Side plank - 2 x 25 sec each", "Pallof press - 3 x 10 each", "Glute bridge march - 2 x 20"]),
-  liss(12, "🦌", "Rudolph's Red-Nose Ride", "Cruise control, no red noses required.", [
+  liss(15, "🦌", "Rudolph's Red-Nose Ride", "Cruise control, no red noses required.", [
     "30 min bike, cross trainer or rower, very easy", "RPE 3-4 out of 10", "Breathe through your nose if you can"]),
   lift(13, "🍒", "Cranberry Crusher Squats", "Tart, tough and tempo.", [
     "Tempo squat (3 sec down) - 4 x 8", "Walking lunge - 3 x 10 each", "Hip thrust - 3 x 12", "Wall sit - 2 x 30 sec", "Calf raise - 3 x 15"]),
-  liss(14, "🥛", "Eggnog Easy Walk", "Smooth, slow and creamy cardio.", [
+  liss(17, "🥛", "Eggnog Easy Walk", "Smooth, slow and creamy cardio.", [
     "30 min steady walk", "Try to keep exactly the same pace throughout", "RPE 3 out of 10"]),
-  lift(15, "🧝", "Elf-Yourself Full Body", "Small but mighty.", [
+  lift(10, "🧝", "Elf-Yourself Full Body", "Small but mighty.", [
     "Goblet squat - 3 x 12", "Push-up - 3 x 8-12", "Single-arm row - 3 x 12 each", "Dumbbell RDL - 3 x 12", "Overhead carry - 2 x 30 sec each"]),
-  lift(16, "🪖", "Nutcracker Back and Biceps", "Crack open some pulling power.", [
+  lift(11, "🪖", "Nutcracker Back and Biceps", "Crack open some pulling power.", [
     "Lat pulldown or assisted pull-up - 4 x 8", "Chest-supported row - 3 x 12", "Reverse fly - 3 x 15", "Hammer curl - 3 x 12", "Dead hang or farmer's carry - 3 x 30 sec"]),
-  mob(17, "🌿", "Mistletoe Mobility", "Get close to your toes.", [
+  mob(18, "🌿", "Mistletoe Mobility", "Get close to your toes.", [
     "Easy walk or bike to warm up - 3 min", "Cat-cow - 2 min", "Low lunge with reach, each side - 4 min", "90/90 hip switches - 3 min",
     "Supine twist, each side - 3 min", "Seated forward fold - 3 min", "Happy baby - 2 min", "Pigeon pose, each side - 4 min",
     "Child's pose - 3 min", "Box breathing - 3 min"]),
-  lift(18, "🛷", "Sleigh Pull Hips", "Drive and push like you're hauling Santa.", [
+  lift(16, "🛷", "Sleigh Pull Hips", "Drive and push like you're hauling Santa.", [
     "Hip thrust - 4 x 10", "Bulgarian split squat - 3 x 8 each", "Kettlebell or dumbbell swing (light) - 3 x 12", "Side-lying leg raise - 2 x 15 each", "Glute bridge hold - 2 x 30 sec"]),
-  liss(19, "❄️", "Snowball Steady State", "Keep rolling along at an easy pace.", [
+  liss(20, "❄️", "Snowball Steady State", "Keep rolling along at an easy pace.", [
     "30 min steady cardio of your choice", "Hold one pace and one breathing rhythm", "RPE 3-4 out of 10"]),
-  lift(20, "🦃", "Turkey Trimmings Full Body", "A bit of everything on the plate.", [
+  lift(19, "🦃", "Turkey Trimmings Full Body", "A bit of everything on the plate.", [
     "Front or goblet squat - 4 x 8", "Dumbbell bench press - 3 x 10", "Row - 3 x 10", "Romanian deadlift - 3 x 10", "Dead bug - 2 x 10", "Plank - 2 x 40 sec"]),
   lift(21, "☀️", "Solstice Sleigh Press", "Shortest day, longest press.", [
     "Bench or floor press - 4 x 8", "Overhead press - 3 x 8", "Row - 4 x 10", "Tricep dips or extensions - 2 x 12", "Curls - 2 x 12", "Plank - 2 x 40 sec"]),
@@ -209,6 +210,8 @@ const W = [
   lift(24, "⭐", "Ho Ho Hold-It Finisher", "One last full body hurrah. You did it!", [
     "Goblet squat - 3 x 12", "Push-up - 3 x 8", "Single-arm row - 2 x 10 each", "Glute bridge - 3 x 12", "Plank - 2 x 30 sec", "Easy 5 min walk to finish"]),
 ];
+
+W.sort((a, b) => a.day - b.day);
 
 const LABEL = { strength: "Strength", liss: "LISS cardio", mobility: "Mobility" };
 const COLOURS = [["#c23a42", "#8f1d25"], ["#2f9462", "#1c6644"], ["#d9a21f", "#a07210"], ["#3a78b8", "#265183"], ["#a8449a", "#74296a"]];
